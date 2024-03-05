@@ -40,14 +40,6 @@
             //使用定时器每秒向div写入当前时间
             setInterval("getDate()", 1000);
         })
-        function getDate() {
-            //获取当前时间
-            var date = new Date();  
-            var year = new Year();
-            $("#yf").text(year.getYear() + "-" + date.getMomth() + date.getDate());
-            //使用定时器每秒向div写入当前时间
-            setInterval("getDate()", 1000);
-        })
         //得到时间并写入div
         function getDate() {
             //获取当前时间
@@ -88,7 +80,7 @@
             </div>
           
              <div style="width:90%;height:85px;border-radius: 25px;margin-left: 40px;"> 
-                 <span class="max-bfxx">开始时间：<b style="font-weight: 200;"id="yf">2024-03-03 08:00</b></span>              
+                 <span class="max-bfxx">开始时间：<b style="font-weight: 200;"id="yr">2024-03-03 08:00</b></span>              
             </div>
               <div style="width:90%;height:85px;border-radius: 25px;margin-left: 40px;"> 
                  <span class="max-bfxx">结束时间：<b style="font-weight: 200;">2024-03-07 22:30</b></span>              
