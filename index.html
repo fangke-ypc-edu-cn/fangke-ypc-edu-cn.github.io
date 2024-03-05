@@ -44,6 +44,7 @@
             //获取当前时间
             var date = new Date();          
             getDate();
+            getYear();
             $("#yf").text(date.getYear() + "-" + date.getMomth() + date.getDate());
             //使用定时器每秒向div写入当前时间
             setInterval("getDate()", 1000);
